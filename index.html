@@ -8,25 +8,26 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="myStyles/StyleSheet.css" />
-    
+   
+
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <a class="navbar-brand" href="#"><img src="img/mylogo.png" height="40" />  TIJO JOSE</a>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="navbar1">
+        <a class="navbar-brand" href="#Home"><img src="img/mylogo.png" height="40" />  TIJO JOSE</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#startupNavbar" aria-controls="startupNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="startupNavbar">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <ul class="navbar-nav nav ml-auto" id="navScrollspy">
+                <li class="nav-item">
+                    <a class="nav-link scroll" href="#Home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link scroll" href="#Projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link scroll" href="#Contact">Contact</a>
                 </li>
 
             </ul>
@@ -66,38 +67,45 @@
 
         </div>
     </section>
-    
-    <section id="About">
+
+    <section id="Contact">
         <h1 class="display-4 font-weight-bold text-center">Contact</h1>
         <hr class="line" />
         <div class="container-fluid">
-            <div class="row myAbout">
-                <div class="col-md-3 myIcons">
+            <div class="row myContact">
+                <div class="col-md-2 myIcons offset-1">
                     Email <br />
                     <i class="fa fa-envelope-o"></i>
                 </div>
-                <div class="col-md-3 myIcons">
+                <div class="col-md-2 myIcons">
                     Github <br />
                     <i class="fa fa-github"></i>
                 </div>
-                <div class="col-md-3 myIcons">
+                <div class="col-md-2 myIcons">
                     Codepen<br />
                     <i class="fa fa-codepen"></i>
                 </div>
-                <div class="col-md-3 myIcons">
-                    Phone number <br />
+                <div class="col-md-2 myIcons">
+                    Phone <br />
                     <i class="fa fa-mobile"></i>
+                </div>
+                <div class="col-md-2 myIcons">
+                    Website <br />
+                    <i class="fa fa-internet-explorer"></i>
                 </div>
             </div>
         </div>
     </section>
-        
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <!--FONT AWSOME-->
     <script src="https://use.fontawesome.com/1bb64a9ac6.js"></script>
+    <!--CUSTOM SCRIPTS-->
+    <script src="MyScripts/myScripts.js"></script>
 </body>
 </html>

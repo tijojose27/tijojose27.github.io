@@ -1,5 +1,10 @@
 ﻿html, body {
     height: 100%;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+    position:relative;
 }
 nav{
     background-color:whitesmoke;
@@ -10,9 +15,6 @@ nav{
 
 #Projects {
     margin-bottom: 90px;
-}
-#About{
-    padding:50px;
 }
 .line {
     width: 50%;
@@ -38,7 +40,9 @@ nav{
 .display-4{
     text-transform:uppercase;
 }
-#About {
+#Contact {
+    padding-bottom: 50px;
+    padding-top: 50px;
     background-color: #2D2C2A;
     color: whitesmoke;
 }
@@ -48,6 +52,6 @@ nav{
 i.fa{
     font-size:56px;
 }
-.myAbout{
+.myContact{
     text-align:center;
 }
