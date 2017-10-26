@@ -4,6 +4,16 @@
 nav{
     background-color:whitesmoke;
 }
+#Home{
+    margin-bottom: 60px;
+}
+
+#Projects {
+    margin-bottom: 90px;
+}
+#About{
+    padding:50px;
+}
 .line {
     width: 50%;
     border: 5px solid grey;
@@ -24,4 +34,20 @@ nav{
     max-height:100%;
     max-width:100%;
     padding:20px;
+}
+.display-4{
+    text-transform:uppercase;
+}
+#About {
+    background-color: #2D2C2A;
+    color: whitesmoke;
+}
+.myIcons{
+    font-size:30px;
+}
+i.fa{
+    font-size:56px;
+}
+.myAbout{
+    text-align:center;
 }
