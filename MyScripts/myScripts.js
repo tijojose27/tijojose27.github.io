@@ -1,7 +1,4 @@
 ﻿$(document).ready(function () {
-    $('body').scrollspy({
-        target: "#navScrollspy"
-    });
 
     var scrollLink = $('.scroll');
     
