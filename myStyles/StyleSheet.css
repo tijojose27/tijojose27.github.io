@@ -47,11 +47,15 @@ nav{
     color: whitesmoke;
 }
 .myIcons{
-    font-size:30px;
+    font-size:25px;
+    color:#e2e2e2;
 }
 i.fa{
     font-size:56px;
 }
 .myContact{
     text-align:center;
+}
+.show-contact{
+  display:none;
 }
