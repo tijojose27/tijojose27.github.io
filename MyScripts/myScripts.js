@@ -6,7 +6,9 @@ $(document).ready(function() {
     "Top News app with New York Times api : https://codepen.io/tijojose27/pen/yzpvqG",
     "Weather app with location from browser and weather api : https://codepen.io/tijojose27/pen/eGEeyy",
     "Quotes app with random quotes from api : https://codepen.io/tijojose27/pen/KXvNLz",
-    "Layover made for a sales website : https://codepen.io/tijojose27/pen/yYPEEZ"
+    "Layover made for a sales website : https://codepen.io/tijojose27/pen/yYPEEZ",
+    "Inventory software that uses dropbox and a text file to maintain basic item inventory",
+    "Android app that shows us different wonders of the world in different periods"
   ]
   var scrollLink = $('.scroll');
 
@@ -37,6 +39,12 @@ $(document).ready(function() {
         info = sites[index]
         break;
       case 3:
+        info = sites[index]
+        break;
+      case 4:
+        info = sites[index]
+        break;
+      case 5:
         info = sites[index]
         break;
       default:
