@@ -7,12 +7,12 @@ $(document).ready(function() {
         "Music app to show of UI/UX of app",
         "Baking app which gets info from web API. It also changes depending on device (phone/tablet) and picks appropriate layout. It also utilizes widgets to add ingredients to home screen",
         "Simple news API that get latest news from new York Times and displays as a summary of cards",
+        "Android app that shows us different wonders of the world in different periods",
     "Top News app with New York Times api : https://codepen.io/tijojose27/pen/yzpvqG",
     "Weather app with location from browser and weather api : https://codepen.io/tijojose27/pen/eGEeyy",
     "Quotes app with random quotes from api : https://codepen.io/tijojose27/pen/KXvNLz",
     "Layover made for a sales website : https://codepen.io/tijojose27/pen/yYPEEZ",
-    "Inventory software that uses dropbox and a text file to maintain basic item inventory",
-    "Android app that shows us different wonders of the world in different periods"
+    "Inventory software that uses dropbox and a text file to maintain basic item inventory"
   ]
   var scrollLink = $('.scroll');
 
