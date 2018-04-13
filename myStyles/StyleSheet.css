@@ -59,3 +59,7 @@ i.fa{
 .show-contact{
   display:none;
 }
+.modal-body {
+    max-height: 80vh;
+    max-width:40vh;
+}

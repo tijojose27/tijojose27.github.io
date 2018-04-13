@@ -2,7 +2,11 @@
 $(document).ready(function() {
   //DESCRIPTION OF THE WEBSITES MUST BE PLACED HERE
   //AND IN ORDER
-  var sites = [
+    var sites = [
+        "Movie app that get movies based on user pref shows ratings and reviews Uses REST API from moviedb.org",
+        "Music app to show of UI/UX of app",
+        "Baking app which gets info from web API. It also changes depending on device (phone/tablet) and picks appropriate layout. It also utilizes widgets to add ingredients to home screen",
+        "Simple news API that get latest news from new York Times and displays as a summary of cards",
     "Top News app with New York Times api : https://codepen.io/tijojose27/pen/yzpvqG",
     "Weather app with location from browser and weather api : https://codepen.io/tijojose27/pen/eGEeyy",
     "Quotes app with random quotes from api : https://codepen.io/tijojose27/pen/KXvNLz",
